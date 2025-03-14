@@ -1,3 +1,3 @@
 # README
--run
+run:
 rails server
