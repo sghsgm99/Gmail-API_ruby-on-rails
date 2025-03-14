@@ -1,0 +1,2 @@
+module GmailSessionsHelper
+end

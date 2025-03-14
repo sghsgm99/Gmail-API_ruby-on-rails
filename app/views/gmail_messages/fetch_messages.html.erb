@@ -1,0 +1,10 @@
+<% if @error %>
+  <p><%= @error %></p>
+<% else %>
+  <h1>Message Subjects</h1>
+  <ul>
+    <% @messages.each do |subject| %>
+      <li><%= subject %></li>
+    <% end %>
+  </ul>
+<% end %>
